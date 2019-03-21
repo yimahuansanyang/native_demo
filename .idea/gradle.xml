@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animationdemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/asynchttp" />
+            <option value="$PROJECT_DIR$/canvasdemo" />
+            <option value="$PROJECT_DIR$/clockdemo" />
+            <option value="$PROJECT_DIR$/clockview" />
+            <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/databinddemo" />
+            <option value="$PROJECT_DIR$/databindingdemo" />
+            <option value="$PROJECT_DIR$/databingdemo" />
+            <option value="$PROJECT_DIR$/dialogdemo" />
+            <option value="$PROJECT_DIR$/dialogfragmentdemo" />
+            <option value="$PROJECT_DIR$/genericitydemo" />
+            <option value="$PROJECT_DIR$/httpdemo" />
+            <option value="$PROJECT_DIR$/kotlindemo" />
+            <option value="$PROJECT_DIR$/mvpdemo" />
+            <option value="$PROJECT_DIR$/observerdemo" />
+            <option value="$PROJECT_DIR$/proxydemo" />
+            <option value="$PROJECT_DIR$/recordvoicedemo" />
+            <option value="$PROJECT_DIR$/recylevieworlistvie" />
+            <option value="$PROJECT_DIR$/retrolfitdemo" />
+            <option value="$PROJECT_DIR$/shadowlayoutdemo" />
+            <option value="$PROJECT_DIR$/tabtools" />
+            <option value="$PROJECT_DIR$/textmore" />
+            <option value="$PROJECT_DIR$/zxdemo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

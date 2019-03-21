@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="useProgressByMainThread"
+        android:text="方式一，主线程用进度条"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="useProgressByService"
+        android:text="方式二，Service启用进度条"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="useProgressByDynamic"
+        android:text="方式三，动态创建进度条"
+        tools:ignore="OnClick" />
+</LinearLayout>
+
+
